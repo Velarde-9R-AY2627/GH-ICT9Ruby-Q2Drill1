@@ -1,0 +1,74 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.banner {
+  width: 1100px;
+  height: 480px;
+  background-color: #25925d;
+  border-radius: 5px;
+  padding: 25px 40px;
+  position: relative;
+  overflow: hidden;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-pill {
+  z-index: 2;
+  background-color: white;
+  width: 700px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-pill h1 {
+  font-size: 18px;
+  color: #111;
+}
+
+
+.cards-row {
+  z-index: 2;
+  display: flex;
+  gap: 20px;
+}
+
+.info-card {
+  background-color: white;
+  width: 220px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.info-card-header {
+  background-color: #eec239;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.info-card ul {
+  padding-left: 18px;
+}
+
+.info-card li {
+  font-size: 11px;
+  color: #333;
+  line-height: 1.5;
+}
